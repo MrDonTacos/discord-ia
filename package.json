@@ -1,0 +1,11 @@
+{
+  "name": "discordia",
+  "version": "1.0.0",
+  "description": "Bot de Discord para la materia de I.A. el cual reconoce una palabra en especifico y acciona comandos para reproducir música ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saúl Cañedo Castillo, Cesar Alonso Cozatti Cota, Jairo Daniel Cortez García, Daniel Josafath Figueroa Anduaga",
+  "license": "ISC"
+}
