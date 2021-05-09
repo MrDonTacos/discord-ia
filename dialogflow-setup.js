@@ -1,10 +1,10 @@
 const fs = require('fs')
 const dialogflow = require('dialogflow')
-
+require('custom-env').env(true)
 
 // Configuration
-const projectId = 'newagent-vxvwah'
-const sessionId = '123456789'
+const projectId = `${process.env.PROJECT_ID}`
+const sessionId = '123'
 
 async function detectAudioIntent(
   inputAudio,
